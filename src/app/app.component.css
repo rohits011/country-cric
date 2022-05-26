@@ -1,0 +1,44 @@
+.menu{
+  margin:40px;
+  font-size: medium;
+  padding-top:10px;
+}
+.menu a{
+  margin-right:10px;
+  color: aqua;
+}
+.search{
+  display :flex;
+  margin-inline-start: auto;
+  padding-top: 10px;
+}
+.search input{
+  margin-right:10px;
+}
+.events
+{
+  overflow: auto;
+  background-color: cadetblue;
+  height:470px;
+  /*align-items: center;*/
+}
+.events div h1{
+  margin-top:220px;
+  margin-left:36%;
+  font-size: 50px;
+
+}
+.recent-events{
+  display:flex;
+}
+mat-card{
+  margin:10px;
+  margin-top:0;
+  padding:30px;
+}
+.recent-events-h3{
+  margin-top:20px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  /*display:initial;*/
+}
